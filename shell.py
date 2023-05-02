@@ -1,8 +1,8 @@
-import basic
+import uzbek
 
 while True:
     text = input('uzbek > ')
-    result, error = basic.run('<stdin>', text)
+    result, error = uzbek.run('<stdin>', text)
 
     if error: print(error.as_string())
     else: print(result)
